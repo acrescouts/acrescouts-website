@@ -64,27 +64,27 @@ footer {
 
 .whatsapp-banner {
     position: absolute;
-    right: 325px;
-    bottom: 90px;
+    right: 160px;
+    bottom: 95px;
 
-    width: 180px;
-    height: 55px;
+    width: 140px;
+    height: 50px;
 }
 
 .email-banner {
     position: absolute;
-    right: 115px;
-    bottom: 90px;
+    right: 15px;
+    bottom: 95px;
 
-    width: 210px;
-    height: 55px;
+    width: 145px;
+    height: 50px;
 }
 
 .linkedin-banner {
     position: absolute;
-    right: 170px;
-    bottom: 25px;
+    right: 70px;
+    bottom: 30px;
 
-    width: 210px;
-    height: 40px;
+    width: 150px;
+    height: 35px;
 }
