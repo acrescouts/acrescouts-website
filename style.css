@@ -64,10 +64,10 @@ footer {
 
 .whatsapp-banner {
     position: absolute;
-    right: 260px;
-    bottom: 32px;
+    right: 175px;
+    bottom: 58px;
 
-    width: 140px;
+    width: 145px;
     height: 50px;
 
     background: red;
@@ -76,10 +76,10 @@ footer {
 
 .email-banner {
     position: absolute;
-    right: 105px;
-    bottom: 35px;
+    right: 15px;
+    bottom: 58px;
 
-    width: 210px;
+    width: 225px;
     height: 50px;
     
     background: green;
@@ -88,11 +88,11 @@ footer {
 
 .linkedin-banner {
     position: absolute;
-    right: 140px;
-    bottom: 0px;
+    right: 95px;
+    bottom: 8px;
 
-    width: 210px;
-    height: 40px;
+    width: 220px;
+    height: 42px;
 
     background: blue;
     opacity: 0.5;
