@@ -1,0 +1,17 @@
+{
+  "site": {
+    "name": "Acre Scouts",
+    "website": "https://acrescouts.com/",
+    "linkedin": "https://www.linkedin.com/company/acre-scouts/"
+  },
+  "employees": [
+    {
+      "slug": "aakash-chandra",
+      "name": "Aakash Chandra",
+      "role": "Acre Scouts",
+      "linkedin": "https://www.linkedin.com/in/aakash-chandra",
+      "phone": "+91 99977 17916",
+      "whatsapp": "919997717916"
+    }
+  ]
+}
