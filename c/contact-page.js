@@ -29,8 +29,8 @@
     const website = document.querySelector("[data-website]");
     website.href = site.website;
 
-    addOptionalLink("phone", employee.phone, (value) => `tel:${value.replace(/[^+\\d]/g, "")}`);
-    addOptionalLink("whatsapp", employee.whatsapp, (value) => `https://wa.me/${value.replace(/[^\\d]/g, "")}`);
+    addOptionalLink("phone", employee.phone, (value) => `tel:${value.replace(/[^+\d]/g, "")}`);
+    addOptionalLink("whatsapp", employee.whatsapp, (value) => `https://wa.me/${value.replace(/[^\d]/g, "")}`);
     addOptionalLink("email", employee.email, (value) => `mailto:${value}`);
 
     page.hidden = false;
