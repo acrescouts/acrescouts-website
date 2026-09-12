@@ -1,90 +1,277 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>Acre Scouts</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acre Scouts | Site Acquisition & Expansion Support</title>
+  <meta name="description" content="Acre Scouts helps businesses identify, evaluate and acquire commercial sites across Uttarakhand, Himachal Pradesh and Western Uttar Pradesh.">
+  <meta name="theme-color" content="#07152c">
+  <meta property="og:title" content="Acre Scouts | Find the Right Location">
+  <meta property="og:description" content="Site identification, location evaluation and expansion support across North India.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://acrescouts.com">
+  <meta property="og:image" content="https://acrescouts.com/logo.jpeg">
+  <link rel="icon" href="logo.jpeg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="content.js"></script>
+  <script defer src="script.js"></script>
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Acre Scouts home">
+        <img class="brand-logo" src="logo.jpeg" alt="" width="52" height="52">
+        <span>
+          <strong>ACRE SCOUTS</strong>
+          <small>Site Acquisition & Expansion Support</small>
+        </span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#coverage">Coverage</a>
+        <a href="#work">Our work</a>
+        <a href="#partners">Partners</a>
+        <a href="#process">How it works</a>
+        <a class="nav-cta" href="#contact">Start a search</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-    <div class="banner-container">
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">On-ground commercial real estate intelligence</p>
+          <h1>Find the right location for your next <span>big move.</span></h1>
+          <p class="hero-lead">We help growing businesses discover, evaluate and secure high-potential commercial sites across North India.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#contact">Start your site search</a>
+            <a class="button button-ghost" href="https://wa.me/916395236431?text=Hello%20Acre%20Scouts%2C%20I%27d%20like%20help%20finding%20a%20commercial%20site." target="_blank" rel="noopener">Chat on WhatsApp</a>
+          </div>
+          <div class="hero-regions" aria-label="Coverage areas">
+            <span>Uttarakhand</span>
+            <span>Himachal Pradesh</span>
+            <span>Western Uttar Pradesh</span>
+          </div>
+        </div>
 
-    <img src="Banner.jpeg" alt="Acre Scouts Banner" class="banner-image">
+        <aside class="search-card reveal" aria-label="Acre Scouts promise">
+          <div class="map-orbit">
+            <span class="orbit orbit-one"></span>
+            <span class="orbit orbit-two"></span>
+            <span class="map-pin" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5Z"/></svg>
+            </span>
+          </div>
+          <p>From market scan to landlord coordination</p>
+          <strong>One partner. Every location decision.</strong>
+          <div class="card-stat">
+            <span>Focused coverage</span>
+            <b>3 key regions</b>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-    <a href="https://wa.me/916395236431"
-       class="whatsapp-banner"
-       target="_blank"></a>
+    <section class="trust-strip" aria-label="Core benefits">
+      <div class="container trust-grid">
+        <div><strong>Local insight</strong><span>Market knowledge beyond listings</span></div>
+        <div><strong>Faster shortlists</strong><span>Options aligned to your brief</span></div>
+        <div><strong>Clear evaluation</strong><span>Practical, decision-ready inputs</span></div>
+        <div><strong>End-to-end support</strong><span>From search to coordination</span></div>
+      </div>
+    </section>
 
-    <a href="mailto:contact@acrescouts.com"
-       class="email-banner"></a>
+    <section id="about" class="section about">
+      <div class="container split">
+        <div class="section-heading reveal">
+          <p class="eyebrow dark">About Acre Scouts</p>
+          <h2>Your expansion goals, backed by local market intelligence.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p class="large-copy">Choosing a site is more than finding available property. It is about understanding the market, customer access, competition, catchment and long-term potential.</p>
+          <p>Acre Scouts gives expansion teams a dependable on-ground partner. We convert business requirements into focused property searches and practical location recommendations.</p>
+          <a class="text-link" href="#process">See how we work <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
 
-    <a href="https://www.linkedin.com/company/acre-scouts/"
-       class="linkedin-banner"
-       target="_blank"></a>
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow dark">What we do</p>
+          <h2>Everything you need to make a confident location decision.</h2>
+          <p>Focused support for brands, retailers, institutions and businesses planning their next phase of growth.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="service-number">01</span>
+            <h3>Site Identification & Sourcing</h3>
+            <p>We find relevant on-market and local opportunities that match your size, budget, access and location criteria.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">02</span>
+            <h3>Market Research</h3>
+            <p>Get a clearer view of local demand, competition, growth corridors and commercial activity before committing.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">03</span>
+            <h3>Location Evaluation</h3>
+            <p>We assess visibility, access, catchment, surrounding development and practical suitability for your business.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">04</span>
+            <h3>Commercial Property Search</h3>
+            <p>Structured searches for retail, office, institutional, hospitality and other commercial requirements.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">05</span>
+            <h3>Landlord Coordination</h3>
+            <p>We simplify site visits, information exchange and discussions with property owners and local stakeholders.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-number">06</span>
+            <h3>Expansion Support</h3>
+            <p>A consistent regional partner for multi-location searches, market entry and ongoing expansion programs.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-</div>
-</header>
+    <section id="coverage" class="section coverage">
+      <div class="container coverage-layout">
+        <div class="coverage-copy reveal">
+          <p class="eyebrow">Our coverage</p>
+          <h2>Regional reach. Local understanding.</h2>
+          <p>We focus on markets where on-ground knowledge creates a real advantage, including established cities, emerging corridors and high-growth towns.</p>
+          <a class="button button-gold" href="#contact">Discuss your target market</a>
+        </div>
+        <div class="region-list reveal">
+          <div class="region">
+            <span>01</span>
+            <div><h3>Uttarakhand</h3><p>Dehradun, Haridwar, Rishikesh, Haldwani, Rudrapur and emerging markets.</p></div>
+          </div>
+          <div class="region">
+            <span>02</span>
+            <div><h3>Himachal Pradesh</h3><p>Shimla, Solan, Baddi, Dharamshala and key commercial corridors.</p></div>
+          </div>
+          <div class="region">
+            <span>03</span>
+            <div><h3>Western Uttar Pradesh</h3><p>Growth markets across the western region based on your expansion brief.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section>
-    <h2>About Us</h2>
+    <section id="process" class="section process">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow dark">How it works</p>
+          <h2>A clear path from requirement to shortlist.</h2>
+        </div>
+        <div class="process-grid">
+          <article class="process-step reveal"><span>1</span><h3>Share your brief</h3><p>Tell us your target market, property type, size, budget and timeline.</p></article>
+          <article class="process-step reveal"><span>2</span><h3>We scout the market</h3><p>We research the location, activate local networks and identify matching sites.</p></article>
+          <article class="process-step reveal"><span>3</span><h3>Review the shortlist</h3><p>Receive focused options with useful context to compare opportunities.</p></article>
+          <article class="process-step reveal"><span>4</span><h3>Move forward</h3><p>We coordinate visits and conversations so your team can progress efficiently.</p></article>
+        </div>
+      </div>
+    </section>
 
-    <p>
-        Acre Scouts helps businesses identify and evaluate suitable sites
-        for expansion across Uttarakhand, Himachal Pradesh and Western Uttar Pradesh.
-    </p>
-</section>
+    <section id="work" class="section work">
+      <div class="container">
+        <div class="section-heading work-heading reveal">
+          <div>
+            <p class="eyebrow dark">From the field</p>
+            <h2>Locations, market visits and expansion stories.</h2>
+          </div>
+          <p>This space is ready for property photographs, site visits, short videos and completed assignments as Acre Scouts grows.</p>
+        </div>
+        <div id="media-grid" class="media-grid" aria-live="polite"></div>
+      </div>
+    </section>
 
-<section>
-    <h2>Services</h2>
+    <section id="partners" class="section partners">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow dark">Our network</p>
+          <h2>Built for trusted local partnerships.</h2>
+          <p>We work with property owners, brokers, consultants and business teams to bring the right opportunities together.</p>
+        </div>
+        <div id="partner-grid" class="partner-grid" aria-live="polite"></div>
+        <div class="partner-cta reveal">
+          <div><strong>Interested in working with Acre Scouts?</strong><span>Property owners and regional partners are welcome to connect.</span></div>
+          <a class="text-link" href="https://wa.me/916395236431?text=Hello%20Acre%20Scouts%2C%20I%27d%20like%20to%20discuss%20a%20partnership." target="_blank" rel="noopener">Become a partner <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
 
-    <ul>
-        <li>Site Identification & Sourcing</li>
-        <li>Market Research</li>
-        <li>Location Evaluation</li>
-        <li>Commercial Property Search</li>
-        <li>Landlord Coordination</li>
-        <li>Expansion Support</li>
-    </ul>
-</section>
+    <section class="cta-band">
+      <div class="container cta-inner reveal">
+        <div>
+          <p class="eyebrow">Planning an expansion?</p>
+          <h2>Let’s find a location that moves your business forward.</h2>
+        </div>
+        <a class="button button-light" href="https://wa.me/916395236431?text=Hello%20Acre%20Scouts%2C%20I%27d%20like%20to%20discuss%20a%20site%20requirement." target="_blank" rel="noopener">Talk to Acre Scouts</a>
+      </div>
+    </section>
 
-<section>
-    <h2>Coverage Areas</h2>
+    <section id="contact" class="section contact">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="eyebrow dark">Start a conversation</p>
+          <h2>Tell us what you are looking for.</h2>
+          <p>Share a few details about your requirement. The form will open WhatsApp with your brief ready to send.</p>
+          <div class="contact-links">
+            <a href="https://wa.me/916395236431" target="_blank" rel="noopener"><span>WhatsApp</span><strong>+91 63952 36431</strong></a>
+            <a href="mailto:contact@acrescouts.com"><span>Email</span><strong>contact@acrescouts.com</strong></a>
+            <a href="https://www.linkedin.com/company/acre-scouts/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Follow Acre Scouts</strong></a>
+          </div>
+        </div>
+        <form id="inquiry-form" class="inquiry-form reveal">
+          <div class="field-row">
+            <label>Name<input type="text" name="name" autocomplete="name" required placeholder="Your name"></label>
+            <label>Company<input type="text" name="company" autocomplete="organization" placeholder="Company name"></label>
+          </div>
+          <div class="field-row">
+            <label>Phone<input type="tel" name="phone" autocomplete="tel" required placeholder="+91"></label>
+            <label>Target region
+              <select name="region" required>
+                <option value="" selected disabled>Select a region</option>
+                <option>Uttarakhand</option>
+                <option>Himachal Pradesh</option>
+                <option>Western Uttar Pradesh</option>
+                <option>Multiple regions</option>
+              </select>
+            </label>
+          </div>
+          <label>Requirement<textarea name="requirement" rows="5" required placeholder="Property type, preferred city, size, budget and timeline"></textarea></label>
+          <button class="button button-gold form-submit" type="submit">Send inquiry on WhatsApp</button>
+          <p class="form-note">No information is stored on this website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
 
-    <ul>
-        <li>Uttarakhand</li>
-        <li>Himachal Pradesh</li>
-        <li>Western Uttar Pradesh</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Contact Us</h2>
-
-    <p>
-        <strong>WhatsApp:</strong>
-        <a href="https://wa.me/916395236431">
-            +91 6395236431
-        </a>
-    </p>
-
-    <p>
-        <strong>Email:</strong>
-        <a href="mailto:contact@acrescouts.com">
-            contact@acrescouts.com
-        </a>
-    </p>
-
-    <p>
-        <strong>LinkedIn:</strong>
-        <a href="https://www.linkedin.com/company/acre-scouts/" target="_blank">
-            Follow Acre Scouts on LinkedIn
-        </a>
-    </p>
-</section>
-
-<footer>
-    <p>© 2025 Acre Scouts. All Rights Reserved.</p>
-</footer>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <a class="brand footer-brand" href="#top">
+        <img class="brand-logo footer-logo" src="logo.jpeg" alt="Acre Scouts logo" width="60" height="60">
+        <span><strong>ACRE SCOUTS</strong><small>Finding the right places for growth.</small></span>
+      </a>
+      <p>Site acquisition and expansion support across Uttarakhand, Himachal Pradesh and Western Uttar Pradesh.</p>
+      <div class="footer-links"><a href="#services">Services</a><a href="#coverage">Coverage</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="container copyright"><span>© <span id="year">2026</span> Acre Scouts. All rights reserved.</span><span>acrescouts.com</span></div>
+  </footer>
 </body>
 </html>
